@@ -1,0 +1,93 @@
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imglogo {
+    border: 1px solid rgb(243, 240, 240);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    box-shadow: 10px 5px 5px rgba(7, 7, 7, 0.338);
+}
+
+.cabecera {
+    color: rgb(11, 102, 138);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.btn-buscar{
+    border: rgba(3, 60, 20, 0.83)solid 2px ;
+    border-radius: 10px;
+    background: green;
+    width: 80px;
+
+}
+
+.caja-buscar{
+    border: rgba(3, 60, 20, 0.83);
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(9, 139, 130);
+    text-align: left;
+    font-size: medium;
+    padding: 10px;
+    border: rgb(9, 95, 89) solid 1px;
+    border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-items: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(7, 7, 7, 0.338);
+}
+
+
+.img-card{
+    background-image: url("../img/img7.jpg");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+    text-align: left;
+    padding-top: 250px;
+    display: flex;
+}
+
+.img-card.img-card2{
+    background-image: url("../img/img8.jpg");
+}
+.img-card.img-card3{
+    background-image: url("../img/img10.jpg");
+}
+
+.btn-oferta{
+    background: red;
+    border: 1px solid  rgb(9, 95, 89);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: auto;
+    color: azure;
+    box-shadow: 10px 5px 5px rgba(7, 7, 7, 0.338);
+
+}
+
+.redes{
+    width: 75px;
+    height: 75px;
+}
+
+footer{
+    background: rgb(26, 61, 75);
+    text-align: center;
+    color: aliceblue;
+}
